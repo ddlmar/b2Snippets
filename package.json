@@ -2,6 +2,7 @@
   "name": "b2-snippets",
   "displayName": "b2 snippets",
   "description": "",
+  "publisher": "b2Snippets",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
