@@ -1,0 +1,24 @@
+{
+  "Create react native component": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rncrc",
+    "body": [
+      "import React from 'react';",
+      "import { View, Text } from 'react-native'",
+      "",
+      "interface ${3:${1}Props} {}",
+      "",
+      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}:React.FC<${3}> = () => {",
+      "  return ",
+      "     (<View>",
+      "         <Text>",
+      "             ",
+      "         </Text>",
+      "     </View>)",
+      "};",
+      "",
+      "export default ${1};"
+    ],
+    "description": "Create Functional React Native Component"
+  }
+}

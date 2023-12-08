@@ -1,0 +1,48 @@
+{
+  "name": "b2-snippets",
+  "displayName": "b2 snippets",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/b2bit-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/b2bit-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/react-native-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react-native-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/react-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/styles-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/styles-snippets.json"
+      }
+    ]
+  }
+}

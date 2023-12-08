@@ -1,0 +1,26 @@
+{
+  "Create styled component": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rstyled",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export const ${1:Container} = styled.${2:div}`",
+      "   ${3}",
+      "`;"
+    ],
+    "description": "Create Functional Styled Component"
+  },
+  "Create react native styled component": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rnstyled",
+    "body": [
+      "import styled from 'styled-components/native';",
+      "",
+      "export const ${1:Container} = styled.${2:View}`",
+      "   ${3}",
+      "`;"
+    ],
+    "description": "Create Functional React Native Styled Component"
+  }
+}
