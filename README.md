@@ -15,7 +15,7 @@ This project aims to bring productivity to developers, specifically those from b
 
 ## Install extension
 
-To install an extension you can run the **Command Pallete** using the command `Ctrl + Shift + P` or `Cmd + Shift + P` , type `Install Extensions` and press `Enter`, Once done, search for b2-snippets and you will find the extension **B2 snippets**.
+To install an extension you can run the **Command Pallete** using the command `Ctrl + Shift + P` or `Cmd + Shift + P` , type `Install Extensions` and press `Enter`, Once done, search for b2 snippets and you will find the extension **B2 snippets**.
 
 ### Supported languages
 
