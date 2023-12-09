@@ -28,10 +28,10 @@ To install an extension you can run the **Command Pallete** using the command `C
 
 | Command | Content                            |
 | ------- | ---------------------------------- |
-| `uss`   | Create functional useState hook    |
-| `usc`   | Create functional useCallback hook |
-| `use`   | Create functional useEffect hook   |
-| `usm`   | Create functional useMemo hook     |
+| `usst`  | Create functional useState hook    |
+| `uscb`  | Create functional useCallback hook |
+| `usef`  | Create functional useEffect hook   |
+| `usmm`  | Create functional useMemo hook     |
 | `crc`   | Create functional React component  |
 
 #### React native snippets
@@ -62,3 +62,7 @@ Update notes
 ### 1.0.0
 
 created b2 snippets extension
+
+### 1.0.1
+
+changed [React snippets](#react-snippets) commands and fix `rncrc` command to return element

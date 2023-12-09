@@ -1,7 +1,7 @@
 {
   "Create useState function": {
     "scope": "typescript, typescriptreact",
-    "prefix": "uss",
+    "prefix": "usst",
     "body": [
       "const [${1:stateName}, set${1/(.*)/${1:/capitalize}/}] = useState(${2});"
     ],
@@ -9,7 +9,7 @@
   },
   "Create useCallback function": {
     "scope": "typescript,typescriptreact",
-    "prefix": "usc",
+    "prefix": "uscb",
     "body": [
       "const ${1:callbackName} = useCallback((${2}) => {",
       "\t${3}",
@@ -19,13 +19,13 @@
   },
   "Create useEffect function": {
     "scope": "typescript,typescriptreact",
-    "prefix": "use",
+    "prefix": "usef",
     "body": ["useEffect(() => {", "\t${1}", "}, [${2}]);"],
     "description": "Create useEffect Function"
   },
   "Create useMemo function": {
     "scope": "typescript,typescriptreact",
-    "prefix": "usm",
+    "prefix": "usmm",
     "body": ["const ${1:memoName} = useMemo(() => {", "\t${2}", "}, [${3}]);"],
     "description": "Create useMemo Function"
   },

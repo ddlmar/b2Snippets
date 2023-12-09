@@ -2,8 +2,18 @@
 
 All notable changes to the "b2-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
-- Initial release
+## [1.0.1] - 2023-12-09
+
+### Changed
+
+- Changed React snippets commands
+
+### Fixed
+
+- Fixed `rncrc` command to return a element
+
+### Added
+
+- Added initial value in `rncrc` return
