@@ -17,3 +17,13 @@ All notable changes to the "b2-snippets" extension will be documented in this fi
 ### Added
 
 - Added initial value in `rncrc` return
+
+## [1.0.2] - 2024-02-26
+
+### Changed
+
+- Changed B2 snippet `b2form` command
+
+- Changed `b2form` type name
+
+- Changed `b2form` function name to submit form

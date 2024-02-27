@@ -66,3 +66,7 @@ created b2 snippets extension
 ### 1.0.1
 
 changed [React snippets](#react-snippets) commands and fix `rncrc` command to return element
+
+### 1.0.2
+
+Update [B2bit snippets](#b2bit-snippets), changing b2form command
