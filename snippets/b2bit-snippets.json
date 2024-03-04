@@ -65,11 +65,11 @@
     "body": [
       "import React, { forwardRef, useImperativeHandle } from 'react'",
       "",
-      "type ${2:${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}}Props = BaseStepProps<${1}>;",
+      "type ${2:${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}}Props = BaseStepProps<${1}FormValues>;",
       "",
       "const ${1}:React.ForwardRefRenderFunction<",
       "FormStepRef,",
-      "${2}",
+      "${2}Props",
       "> = ({initialValues, onSubmit}, ref) => {",
       "",
       " useImperativeHandle(ref, () => ({",

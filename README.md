@@ -70,3 +70,7 @@ changed [React snippets](#react-snippets) commands and fix `rncrc` command to re
 ### 1.0.2
 
 Update [B2bit snippets](#b2bit-snippets), changing b2form command
+
+### 1.0.3
+
+Fix [B2bit snippets](#b2bit-snippets), fixed generic type name and ForwardRefRenderFunction types.

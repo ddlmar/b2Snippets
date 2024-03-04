@@ -27,3 +27,11 @@ All notable changes to the "b2-snippets" extension will be documented in this fi
 - Changed `b2form` type name
 
 - Changed `b2form` function name to submit form
+
+## [1.0.3] - 2024-03-03
+
+### Fixed
+
+- Fixed generic type name
+
+- Fixed ForwardRefRenderFunction types
