@@ -4,10 +4,21 @@
 
 ## Content Table
 
-- [React snippets](#react-snippets)
-- [React native snippets](#react-native-snippets)
-- [Styled component snippets](#styled-component-snippets)
-- [B2bit snippets](#b2bit-snippets)
+- [Content Table](#content-table)
+- [About this project](#about-this-project)
+- [Install extension](#install-extension)
+  - [Supported languages](#supported-languages)
+- [Snippets](#snippets)
+    - [React snippets](#react-snippets)
+    - [React native snippets](#react-native-snippets)
+    - [Styled component snippets](#styled-component-snippets)
+    - [B2bit snippets](#b2bit-snippets)
+- [Release Notes](#release-notes)
+  - [1.0.0](#100)
+  - [1.0.1](#101)
+  - [1.0.2](#102)
+  - [1.0.3](#103)
+  - [2.0.0](#200)
 
 ## About this project
 
@@ -49,11 +60,13 @@ To install an extension you can run the **Command Pallete** using the command `C
 
 #### B2bit snippets
 
-| Command     | Content                                           |
-| ----------- | ------------------------------------------------- |
-| `b2context` | Create React functional component with useContext |
-| `b2hook`    | Create custom hook with request                   |
-| `b2form`    | Create functional form                            |
+| Command            | Content                                           |
+| ------------------ | ------------------------------------------------- |
+| `b2context`        | Create React functional component with useContext |
+| `b2hook`           | Create custom hook with request                   |
+| `b2form`           | Create functional form                            |
+| `b2controller`     | Create functional controller                      |
+| `b2formController` | Create functional form with controller            |
 
 ## Release Notes
 
@@ -74,3 +87,9 @@ Update [B2bit snippets](#b2bit-snippets), changing b2form command
 ### 1.0.3
 
 Fix [B2bit snippets](#b2bit-snippets), fixed generic type name and ForwardRefRenderFunction types.
+
+### 2.0.0
+
+Update [B2bit snippets](#b2bit-snippets), changed b2form, adding useFormik hook
+
+Crete [B2bit snippets](#b2bit-snippets), added a new command to create form with controller

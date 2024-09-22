@@ -35,3 +35,9 @@ All notable changes to the "b2-snippets" extension will be documented in this fi
 - Fixed generic type name
 
 - Fixed ForwardRefRenderFunction types
+
+### Update
+
+- Changed `b2form`, adding useFormik hook and formikValidationSchema
+
+- Added `b2formController` command to create form with controller
