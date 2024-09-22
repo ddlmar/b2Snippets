@@ -115,6 +115,7 @@
     "prefix": "b2formController",
     "body": [
       "import React, { forwardRef, useImperativeHandle } from 'react'",
+      "import { useFormik } from 'formik';",
       "import { object } from 'yup';",
       "",
       "type ${2:${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}}Props = BaseStepProps<${1}FormValues>;",
