@@ -60,6 +60,25 @@
     ],
     "description": "Create b2-bit custom hook with request"
   },
+  "Create custom minimal hook function": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "b2fnhook",
+    "body": [
+      " const ${1} = useCallback(",
+      "  async (${2:params}: ${3:any}) => {",
+      "    const response = await request<${4:any}>({",
+      "       method: '${5|get,post,put,patch,delete|}',",
+      "       url: endpoints.${6|public,private|}.${7:route},",
+      "       params,",
+      "    });",
+      "",
+      "    return response.data;",
+      " },",
+      " [request]",
+      ");"
+    ],
+    "description": "Create b2-bit custom minimal hook function"
+  },
   "Create functional b2-bit form": {
     "scope": "typescript,typescriptreact",
     "prefix": "b2form",
