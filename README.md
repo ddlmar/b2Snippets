@@ -19,6 +19,7 @@
   - [1.0.2](#102)
   - [1.0.3](#103)
   - [2.0.0](#200)
+  - [3.0.0](#300)
 
 ## About this project
 
@@ -64,6 +65,7 @@ To install an extension you can run the **Command Pallete** using the command `C
 | ------------------ | ------------------------------------------------- |
 | `b2context`        | Create React functional component with useContext |
 | `b2hook`           | Create custom hook with request                   |
+| `b2fnhook`         | Create custom minimal hook function               |
 | `b2form`           | Create functional form                            |
 | `b2controller`     | Create functional controller                      |
 | `b2formController` | Create functional form with controller            |
@@ -92,4 +94,10 @@ Fix [B2bit snippets](#b2bit-snippets), fixed generic type name and ForwardRefRen
 
 Update [B2bit snippets](#b2bit-snippets), changed b2form, adding useFormik hook
 
-Crete [B2bit snippets](#b2bit-snippets), added a new command to create form with controller
+Create [B2bit snippets](#b2bit-snippets), added a new command to create form with controller
+
+### 3.0.0
+
+Fix [B2bit snippets](#b2bit-snippets), changed b2form, b2formcontroller and b2hook
+
+Create new [B2bit snippets](#b2bit-snippets) command, added b2fnhook

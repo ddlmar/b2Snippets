@@ -41,3 +41,19 @@ All notable changes to the "b2-snippets" extension will be documented in this fi
 - Changed `b2form`, adding useFormik hook and formikValidationSchema
 
 - Added `b2formController` command to create form with controller
+
+## 2.0.0 - 2024-09-22
+
+- Fixed `b2form`, adding useFormik hook
+
+- Added `b2formcontroller` command to create a form using _FormController_ component
+
+- Ps. Sorry, I forgot to write the changes in the changelog
+
+## 3.0.0 - 2025-02-13
+
+- Fixed `b2form`, `b2formcontroller` commands, adding missing comma
+
+- Fixed `b2hook`, adding blank line before _return response.data_
+
+- Created a new command! `b2fnhook` created a minimal custom hook function
